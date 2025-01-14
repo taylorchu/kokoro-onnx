@@ -10,10 +10,11 @@ ONNX optimized version of [hexgrad/Kokoro-82M](https://huggingface.co/hexgrad/Ko
 
 ## Model Files
 
-| Filename            | Description                        |
-| ------------------- | ---------------------------------- |
-| `kokoro.onnx`       | FP32 precision model               |
-| `kokoro-quant.onnx` | Mixed precision model (uint8/int8) |
+| Filename            | Description                        | Size  |
+| ------------------- | ---------------------------------- | ----- |
+| `kokoro-quant.onnx` | Mixed precision model (uint8/int8) | 169MB |
+| `kokoro.onnx`       | FP32 precision model               | 310MB |
+| `kokoro-v0_19.onnx` | Original model                     | 330MB |
 
 ## Usage
 
